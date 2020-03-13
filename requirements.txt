@@ -1,0 +1,23 @@
+setuptools >= 35.0.1
+Babel
+lingua 
+pyramid
+pyramid_jinja2
+pyramid_debugtoolbar
+pyramid_tm
+SQLAlchemy
+transaction
+zope.sqlalchemy
+webhelpers2==2.0
+paginate==0.5.6
+paginate_sqlalchemy==0.3.0
+waitress
+bcrypt
+mypy
+requests
+shortuuid
+mysqlclient
+gunicorn
+pyramid_beaker
+pyramid_retry
+gevent
