@@ -21,3 +21,4 @@ gunicorn
 pyramid_beaker
 pyramid_retry
 gevent
+easypost
