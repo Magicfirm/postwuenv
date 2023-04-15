@@ -2,11 +2,12 @@
 # This image used in magicfirm spark cloud running enviroment.
 # ------------------------------------------------------------------------------
 # Pull base image.
-FROM python:3.9
+FROM python:3.5
 MAINTAINER JIN TAO <jeffkyjin@magicfirm.com>
 
 COPY requirements.txt /tmp
 WORKDIR /tmp
+RUN /usr/local/bin/python -m pip install --upgrade pip
 RUN pip install -r requirements.txt
 
 RUN apt update
